@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
@@ -14,14 +14,15 @@
 
     header {
       background-color: #0a0a0a;
-      padding: 20px;
-      text-align: center;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
     }
 
-    .banner {
-      width: 200px;
-      display: block;
-      margin: 20px auto 0;
+    .logo {
+      width: 80px;
+      cursor: pointer;
     }
 
     .socials {
@@ -122,6 +123,18 @@
       resize: vertical;
     }
 
+    .checkboxes label {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    .checkboxes input {
+      width: auto;
+      margin-right: 10px;
+    }
+
     button {
       margin-top: 20px;
       padding: 12px 25px;
@@ -149,7 +162,9 @@
 <body>
 
   <header>
-    <img class="banner" src="https://i.postimg.cc/XY83vZVN/1.png" alt="Logo Altaïr Innovations Store" />
+    <a href="/">
+      <img class="logo" src="https://i.postimg.cc/XY83vZVN/1.png" alt="Accueil" />
+    </a>
   </header>
 
   <div class="socials">
@@ -158,7 +173,7 @@
     <a class="youtube" href="https://www.youtube.com/@AltairInnovationStore" target="_blank">YouTube</a>
   </div>
 
-  <section class="products">
+  <section class="products" id="top">
     <div class="product-card">
       <h3>Imprimante Bluetooth sans encre</h3>
       <p>29.99€</p>
@@ -195,36 +210,9 @@
     <label for="address">Adresse de livraison</label>
     <textarea name="address" id="address" rows="3" required></textarea>
 
-    <label for="product">Produit</label>
-    <select name="product" id="product" required>
-      <option value="">-- Choisissez un produit --</option>
-      <option value="Imprimante Bluetooth">Imprimante Bluetooth sans encre</option>
-      <option value="Support téléphone">Support téléphone magnétique</option>
-      <option value="Briquet USB">Briquet électronique USB</option>
-      <option value="Organisateur de câble">Organisateur de câble</option>
-      <option value="Mini Ventilateur">Mini ventilateur portable USB</option>
-    </select>
-
-    <label for="quantity">Quantité</label>
-    <input type="number" name="quantity" id="quantity" min="1" required>
-
-    <label for="payment">Moyen de paiement</label>
-    <select name="payment" id="payment" required>
-      <option value="">-- Sélectionner un moyen de paiement --</option>
-      <option value="Carte bancaire">Carte bancaire</option>
-      <option value="PayPal">PayPal</option>
-      <option value="Virement bancaire">Virement bancaire</option>
-    </select>
-
-    <label for="message">Message complémentaire</label>
-    <textarea name="message" id="message" rows="3"></textarea>
-
-    <button type="submit">Envoyer la commande</button>
-  </form>
-
-  <footer>
-    &copy; 2025 Altaïr Innovations Store - Tous droits réservés
-  </footer>
-
-</body>
-</html>
+    <label>Produits à commander</label>
+    <div class="checkboxes">
+      <label><input type="checkbox" name="products" value="Imprimante Bluetooth"> Imprimante Bluetooth sans encre (29.99€)</label>
+      <label><input type="checkbox" name="products" value="Support téléphone"> Support téléphone magnétique (14.99€)</label>
+      <label><input type="checkbox" name="products" value="Briquet USB"> Briquet USB rechargeable (14.99€)</label>
+      <label><input type="checkbox" name="products"
