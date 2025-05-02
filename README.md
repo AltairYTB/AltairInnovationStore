@@ -162,7 +162,7 @@
 <body>
 
   <header>
-    <a href="/">
+    <a href="https://altairytb.github.io/AltairInnovationStore/">
       <img class="logo" src="https://i.postimg.cc/XY83vZVN/1.png" alt="Accueil" />
     </a>
   </header>
@@ -215,4 +215,30 @@
       <label><input type="checkbox" name="products" value="Imprimante Bluetooth"> Imprimante Bluetooth sans encre (29.99€)</label>
       <label><input type="checkbox" name="products" value="Support téléphone"> Support téléphone magnétique (14.99€)</label>
       <label><input type="checkbox" name="products" value="Briquet USB"> Briquet USB rechargeable (14.99€)</label>
-      <label><input type="checkbox" name="products"
+      <label><input type="checkbox" name="products" value="Organisateur câble"> Organisateur de câble (9.99€)</label>
+      <label><input type="checkbox" name="products" value="Mini ventilateur"> Mini ventilateur portable (19.99€)</label>
+    </div>
+
+    <label for="quantity">Quantité totale</label>
+    <input type="number" name="quantity" id="quantity" min="1" required>
+
+    <label for="payment">Moyen de paiement</label>
+    <select name="payment" id="payment" required>
+      <option value="">-- Sélectionner un moyen de paiement --</option>
+      <option value="Carte bancaire">Carte bancaire</option>
+      <option value="PayPal">PayPal</option>
+      <option value="Virement bancaire">Virement bancaire</option>
+    </select>
+
+    <label for="message">Message complémentaire</label>
+    <textarea name="message" id="message" rows="3"></textarea>
+
+    <button type="submit">Envoyer la commande</button>
+  </form>
+
+  <footer>
+    &copy; 2025 Altaïr Innovations Store - Tous droits réservés
+  </footer>
+
+</body>
+</html>
