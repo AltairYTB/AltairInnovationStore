@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
@@ -80,9 +80,18 @@
       text-align: center;
     }
 
-    .product-card h3 {
-      margin: 10px 0 5px;
-      font-size: 1.1em;
+    .product-card h3 a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      background-color: #ff0050;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    .product-card h3 a:hover {
+      background-color: #e60045;
     }
 
     .product-card p {
@@ -175,7 +184,7 @@
 
   <section class="products" id="top">
     <div class="product-card">
-      <h3>Imprimante Bluetooth sans encre</h3>
+      <h3><a href="https://altairytb.github.io/Imprimante-bluetooth/">Imprimante Bluetooth sans encre</a></h3>
       <p>29.99€</p>
     </div>
     <div class="product-card">
