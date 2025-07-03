@@ -80,6 +80,13 @@
       text-align: center;
     }
 
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
     .product-card h3 a {
       color: #fff;
       text-decoration: none;
@@ -88,6 +95,7 @@
       border-radius: 8px;
       display: inline-block;
       margin-bottom: 8px;
+      cursor: pointer;
     }
 
     .product-card h3 a:hover {
@@ -97,6 +105,7 @@
     .product-card p {
       margin: 0;
       color: #aaa;
+      cursor: default;
     }
 
     form {
@@ -184,9 +193,21 @@
 
   <section class="products" id="top">
     <div class="product-card">
-      <h3><a href="https://altairytb.github.io/Imprimante-bluetooth/">Imprimante Bluetooth sans encre</a></h3>
+      <a href="https://altairytb.github.io/Imprimante-bluetooth/" target="_blank">
+        <img src="https://i.postimg.cc/QdtjK7Vj/Screenshot-20250502-210304-1.png" alt="Imprimante Bluetooth" />
+        <h3>Imprimante Bluetooth sans encre</h3>
+      </a>
       <p>29.99€</p>
     </div>
+
+    <div class="product-card">
+      <a href="https://altairytb.github.io/Refroidisseur-telephone/" target="_blank">
+        <img src="https://i.postimg.cc/T2WrqRmn/IMG-20250703-131959.jpg" alt="Refroidisseur téléphone" />
+        <h3>Refroidisseur pour téléphone</h3>
+      </a>
+      <p>19.99€</p>
+    </div>
+
     <div class="product-card">
       <h3>Support téléphone magnétique</h3>
       <p>14.99€</p>
@@ -198,10 +219,6 @@
     <div class="product-card">
       <h3>Organisateur de câble</h3>
       <p>9.99€</p>
-    </div>
-    <div class="product-card">
-      <h3>refroidisseur pour telephone</h3>
-      <p>19.99€</p>
     </div>
   </section>
 
