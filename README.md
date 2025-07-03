@@ -200,7 +200,7 @@
       <p>9.99€</p>
     </div>
     <div class="product-card">
-      <h3>Mini ventilateur portable USB</h3>
+      <h3>refroidisseur pour telephone</h3>
       <p>19.99€</p>
     </div>
   </section>
