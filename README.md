@@ -242,7 +242,8 @@
       <label><input type="checkbox" name="products" value="Support téléphone"> Support téléphone magnétique (14.99€)</label>
       <label><input type="checkbox" name="products" value="Briquet USB"> Briquet USB rechargeable (14.99€)</label>
       <label><input type="checkbox" name="products" value="Organisateur câble"> Organisateur de câble (9.99€)</label>
-      <label><input type="checkbox" name="products" value="Mini ventilateur"> Mini ventilateur portable (19.99€)</label>
+      <label><input type="checkbox" name="products" value="Mini ventilateur"> refroidisseur pour telephone
+    (19.99€)</label>
     </div>
 
     <label for="quantity">Quantité totale</label>
