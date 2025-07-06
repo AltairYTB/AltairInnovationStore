@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
@@ -212,12 +212,17 @@
       <h3>Support téléphone magnétique</h3>
       <p>14.99€</p>
     </div>
+
     <div class="product-card">
       <h3>Briquet électronique rechargeable USB</h3>
       <p>14.99€</p>
     </div>
+
     <div class="product-card">
-      <h3>Organisateur de câble</h3>
+      <a href="https://altairytb.github.io/Organisateur-de-cable/" target="_blank">
+        <img src="https://i.postimg.cc/K82Gzwcm/IMG-20250704-024229.jpg" alt="Organisateur de câble" />
+        <h3>Organisateur de câble</h3>
+      </a>
       <p>9.99€</p>
     </div>
   </section>
@@ -242,8 +247,7 @@
       <label><input type="checkbox" name="products" value="Support téléphone"> Support téléphone magnétique (14.99€)</label>
       <label><input type="checkbox" name="products" value="Briquet USB"> Briquet USB rechargeable (14.99€)</label>
       <label><input type="checkbox" name="products" value="Organisateur câble"> Organisateur de câble (9.99€)</label>
-      <label><input type="checkbox" name="products" value="Mini ventilateur"> refroidisseur pour telephone
-    (19.99€)</label>
+      <label><input type="checkbox" name="products" value="Mini ventilateur"> Refroidisseur pour téléphone (19.99€)</label>
     </div>
 
     <label for="quantity">Quantité totale</label>
